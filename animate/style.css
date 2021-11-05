@@ -1,0 +1,37 @@
+.box{
+    width: 220px;
+    height: 220px;
+    background: crimson;
+    margin: 10% 40%;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    position: absolute; 
+    transition: 0.5s ease;
+    /* transform: rotate(-5deg); */
+    /* transform: scale(4.2); */
+    transform: translate();
+}
+
+.box1{
+    width: 220px;
+    height: 220px;
+    background:green;
+    margin: 10% auto;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    position: absolute;
+    margin: 10% 40%;
+   /* transform: skew( 25deg , 15deg ); */
+   transition: .7s ease;
+}
+
+.box1:hover{
+    transform: skew( 10deg ,0deg);
+    transform-origin: left top;
+}
